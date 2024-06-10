@@ -210,7 +210,7 @@ header .menu_btn a:hover {
 }
 
 .choose .box {
-  background: #ebf6fa;
+  background: #eef8fe;
   border: 1px solid rgba(3, 25, 44, 0.15);
   border-radius: 4px;
 }
@@ -236,4 +236,119 @@ header .menu_btn a:hover {
   margin-top: 10px;
   font-size: 12px;
   font-weight: 600;
+}
+
+.featured {
+  background: #eef8fe;
+}
+.featured .swiper {
+  width: 100%;
+  height: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-bottom: 60px;
+}
+.featured .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: calc((100% - 30px) / 2) !important;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid rgba(3, 25, 44, 0.15);
+}
+.featured .swiper-slide:hover .image a {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+.featured .swiper-slide:hover .text {
+  background: #3572ef;
+  color: #fff;
+}
+.featured .swiper-slide .image {
+  width: 100%;
+  height: 224px;
+  position: relative;
+  overflow: hidden;
+}
+.featured .swiper-slide .image a {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  background: #3572ef;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(30px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.featured .swiper-slide .image a i {
+  color: #fff;
+  font-size: 15px;
+}
+.featured .swiper-slide .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.featured .swiper-slide .text {
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.featured .swiper-slide .text a:hover {
+  color: #fff;
+}
+.featured .swiper-slide .text h5 {
+  font-size: 19px;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.featured .swiper-slide .text p {
+  margin-bottom: 0;
+  line-height: 1;
+  font-size: 14px;
+}
+.featured .swiper-pagination {
+  bottom: 0px;
+}
+.featured .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(3, 25, 44, 0.5254901961);
+  position: relative;
+  margin: 0 8px;
+}
+.featured .swiper-pagination .swiper-pagination-bullet::before {
+  position: absolute;
+  content: "";
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
+  transform: translate(-9px, -3px);
+  border: 1px solid #333;
+}
+.featured .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #3572ef;
+}
+.featured .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::before {
+  border: 1px solid #3572ef;
 }/*# sourceMappingURL=style.css.map */

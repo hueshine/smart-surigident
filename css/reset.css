@@ -181,6 +181,11 @@ a:hover {
   margin: 0 auto;
 }
 
+.row > * {
+  padding-right: calc(var(--bs-gutter-x) * 0.7);
+  padding-left: calc(var(--bs-gutter-x) * 0.7);
+}
+
 @media screen and (max-width: 1700px) {
   .container {
     max-width: 1311px;
