@@ -15,7 +15,7 @@ var bannerSlider = new Swiper(".hero", {
 
 var featuredSwiper = new Swiper(".featured_slider", {
   loop: true,
-  slidesPerView: 3,
+  slidesPerView: 4,
   speed: 1500,
   autoplay: {
     delay: 4500,

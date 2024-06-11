@@ -1,380 +1,711 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Surigident Pvt. Ltd.</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Smart Surigident Pvt. Ltd.</title>
+    <link rel="icon" href="./images/static/favicon.png" type="image/x-icon" />
 
-  <link rel="icon" href="./images/static/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+    />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+  <body>
+    <header>
+      <div class="top_menu flex justify_center">
+        <a href=""
+          ><i class="fa-regular fa-envelope"></i> info@smartsurgident.com</a
+        >
+        <a href=""><i class="fa-solid fa-phone"></i> +977 1 1234567</a>
+      </div>
+      <div class="menu">
+        <div class="container-fluid flex align_center justify_between">
+          <div class="logo">
+            <a href="/index.html">
+              <img src="./images/static/logo-reverse.png" alt="" />
+            </a>
+          </div>
 
-  <link rel="stylesheet" href="./css/reset.css" />
-  <link rel="stylesheet" href="./css/style.css" />
-</head>
+          <div class="menu_list">
+            <ul class="flex">
+              <li><a href="/index.html">Home</a></li>
+              <li>
+                <a href="">ABOUT <i class="fa-solid fa-chevron-down"></i></a>
+              </li>
+              <li>
+                <a href="#"
+                  >CLINICAL <i class="fa-solid fa-chevron-down"></i>
+                </a>
 
-<body>
-  <header>
-    <div class="top_menu flex justify_center">
-      <a href=""><i class="fa-regular fa-envelope"></i> info@smartsurgident.com</a>
-      <a href=""><i class="fa-solid fa-phone"></i> +977 1 1234567</a>
-    </div>
-    <div class="menu">
-      <div class="container-fluid flex align_center justify_between">
-        <div class="logo">
+                <div class="submenu">
+                  <ul>
+                    <li><a href="#">Air Polisher</a></li>
+                    <li><a href="#">Apex Locator</a></li>
+                    <li><a href="#">Articulator</a></li>
+                    <li><a href="#">Autoclave</a></li>
+                    <li><a href="#">CBCT</a></li>
+                    <li><a href="#">Dental Chair unit</a></li>
+                    <li><a href="#">Dental Compressors</a></li>
+                    <li><a href="#">Dental Handpiece</a></li>
+                    <li><a href="#">Digital Shade Guide</a></li>
+                    <li><a href="#">Dental Laser</a></li>
+                    <li><a href="#">Endoactivator</a></li>
+                    <li><a href="#">Endomotor</a></li>
+                    <li><a href="#">Handpiece Lubrication</a></li>
+                    <li><a href="#">Handpiece Steam Sterilizer</a></li>
+                    <li><a href="#">Intra Oral Camera</a></li>
+                    <li><a href="#">Intraoral Scanner</a></li>
+                    <li><a href="#">Light Cures</a></li>
+                    <li><a href="#">Microblaster</a></li>
+                    <li><a href="#">Microscope</a></li>
+                    <li><a href="#">Obturation System</a></li>
+                    <li><a href="#">Physiodispenser</a></li>
+                    <li><a href="#">Piezobone Surgery Unit</a></li>
+                    <li><a href="#">PSP Scanner</a></li>
+                    <li><a href="#">Portable X-ray</a></li>
+                    <li><a href="#">RVG</a></li>
+                    <li><a href="#">Micromotor</a></li>
+                    <li><a href="#">Sealing Machine</a></li>
+                    <li><a href="#">Thermal Disinfectant</a></li>
+                    <li><a href="#">Ultrasonic Cleaner</a></li>
+                    <li><a href="#">Ultrasonic Scalers</a></li>
+                    <li><a href="#">Ultrasonic Scalar & Air Polisher</a></li>
+                    <li><a href="#">Water Distiller</a></li>
+                    <li><a href="#">Clinical Consumables</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a href="#">LAB <i class="fa-solid fa-chevron-down"></i> </a>
+
+                <div class="submenu">
+                  <ul>
+                    <li><a href="#">3D Printer</a></li>
+                    <li><a href="#">Air Turbine Unit</a></li>
+                    <li><a href="#">Circular Saw</a></li>
+                    <li><a href="#">Curing Unit</a></li>
+                    <li><a href="#">Deflasking Chisel</a></li>
+                    <li><a href="#">Dental Arch Trimmer</a></li>
+                    <li><a href="#">Metal 3 D Printer</a></li>
+                    <li><a href="#">Dental Milling Machine</a></li>
+                    <li><a href="#">Dental Surveyor</a></li>
+                    <li><a href="#">Electric Polisher</a></li>
+                    <li><a href="#">Electric Wax Carver</a></li>
+                    <li><a href="#">Electro Polisher</a></li>
+                    <li><a href="#">Induction Casting Machine</a></li>
+                    <li><a href="#">LAB SCANNER</a></li>
+                    <li><a href="#">Laser Welding Unit</a></li>
+                    <li><a href="#">Lathe Machine</a></li>
+                    <li><a href="#">Micromotor</a></li>
+                    <li><a href="#">Model Trimmer</a></li>
+                    <li><a href="#">Pindex Machine</a></li>
+                    <li><a href="#">Porcelain Furnaces</a></li>
+                    <li><a href="#">Pre heating Furnace</a></li>
+                    <li><a href="#">Pressure Moulding Machine</a></li>
+                    <li><a href="#">Sand Blaster</a></li>
+                    <li><a href="#">Sintering Furnace</a></li>
+                    <li><a href="#">Spindle Grinder</a></li>
+                    <li><a href="#">Suction Unit</a></li>
+                    <li><a href="#">Vaccum Forming Machine</a></li>
+                    <li><a href="#">Vaccum Mixer</a></li>
+                    <li><a href="#">Wax Dipping Pot</a></li>
+                    <li><a href="#">Wax Electric</a></li>
+                    <li><a href="#">Lab Consumables</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="">Contact US</a></li>
+            </ul>
+          </div>
+
+          <div class="menu_btn">
+            <a href="">Download Catalouge</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
           <a href="/index.html">
-            <img src="./images/static/logo-reverse.png" alt="" />
+            <div
+              class="hero_image"
+              style="background: url(./images/12000.jpg)"
+            ></div>
+
+            <div class="hero_text">
+              <h1>Excellent dental products</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                illum sequi porro alias nesciunt nobis temporibus? Eos adipisci
+                sunt odit optio.
+              </p>
+
+              <a href="" class="btn"
+                >Learn More <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
           </a>
         </div>
 
-        <div class="menu_list">
-          <ul class="flex">
-            <li><a href="/index.html">Home</a></li>
-            <li>
-              <a href="">ABOUT <i class="fa-solid fa-chevron-down"></i></a>
-            </li>
-            <li>
-              <a href="">CLINICAL <i class="fa-solid fa-chevron-down"></i></a>
-            </li>
-            <li>
-              <a href="">LAB <i class="fa-solid fa-chevron-down"></i></a>
-            </li>
-            <li><a href="">Contact US</a></li>
-          </ul>
-        </div>
+        <div class="swiper-slide">
+          <a href="/index.html">
+            <div
+              class="hero_image"
+              style="background: url(./images/6151.jpg)"
+            ></div>
 
-        <div class="menu_btn">
-          <a href="">Download Catalouge</a>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <section class="hero swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <a href="/index.html">
-          <div class="hero_image" style="background: url(./images/12000.jpg)"></div>
-
-          <div class="hero_text">
-            <h1>Excellent dental products</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              illum sequi porro alias nesciunt nobis temporibus? Eos adipisci
-              sunt odit optio.
-            </p>
-
-            <a href="" class="btn">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-          </div>
-        </a>
-      </div>
-
-      <div class="swiper-slide">
-        <a href="/index.html">
-          <div class="hero_image" style="background: url(./images/6151.jpg)"></div>
-
-          <div class="hero_text">
-            <h1>Excellent dental products</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              illum sequi porro alias nesciunt nobis temporibus? Eos adipisci
-              sunt odit optio.
-            </p>
-
-            <a href="" class="btn">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-          </div>
-        </a>
-      </div>
-
-      <div class="swiper-slide">
-        <a href="/index.html">
-          <div class="hero_image" style="background: url(./images/938.jpg)"></div>
-
-          <div class="hero_text">
-            <h1>Excellent dental products</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              illum sequi porro alias nesciunt nobis temporibus? Eos adipisci
-              sunt odit optio.
-            </p>
-
-            <a href="" class="btn">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <div class="swiper-button swiper-button-next"></div>
-    <div class="swiper-button swiper-button-prev"></div>
-  </section>
-
-  <section class="choose p80">
-    <div class="container">
-      <div class="title sm text-center">
-        <h6>WHY CHOOSE SMART SURIGIDENT</h6>
-        <h3>Excellent Dental Products</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-          voluptatum inventore quo laboriosam minus. Fugiat adipisci veniam
-          laboriosam in aliquam tenetur cum hic
-        </p>
-      </div>
-
-      <div class="row justify-content-center p30">
-        <div class="col-md-4">
-          <div class="box">
-            <div class="image">
-              <img src="./images/12000.jpg" alt="" />
-            </div>
-            <div class="text">
-              <h5>Clinical Products</h5>
+            <div class="hero_text">
+              <h1>Excellent dental products</h1>
               <p>
-                Clinical products consist of tools like dental chairs, drills,
-                and sterilization equipment.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                illum sequi porro alias nesciunt nobis temporibus? Eos adipisci
+                sunt odit optio.
               </p>
 
-              <a href="" class="btn">See Product Lineup
-                <i class="fa-solid fa-arrow-right-long"></i></a>
+              <a href="" class="btn"
+                >Learn More <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
             </div>
-          </div>
+          </a>
         </div>
 
-        <div class="col-md-4">
-          <div class="box">
-            <div class="image">
-              <img src="./images/6151.jpg" alt="" />
-            </div>
-            <div class="text">
-              <h5>Lab Products</h5>
+        <div class="swiper-slide">
+          <a href="/index.html">
+            <div
+              class="hero_image"
+              style="background: url(./images/938.jpg)"
+            ></div>
+
+            <div class="hero_text">
+              <h1>Excellent dental products</h1>
               <p>
-                Lab products include dental implants, crowns, and dentures.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                illum sequi porro alias nesciunt nobis temporibus? Eos adipisci
+                sunt odit optio.
               </p>
 
-              <a href="" class="btn">See Product Lineup
-                <i class="fa-solid fa-arrow-right-long"></i></a>
+              <a href="" class="btn"
+                >Learn More <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="swiper-button swiper-button-next"></div>
+      <div class="swiper-button swiper-button-prev"></div>
+    </section>
+
+    <section class="choose p80">
+      <div class="container">
+        <div class="title sm text-center">
+          <h6>WHY CHOOSE SMART SURIGIDENT</h6>
+          <h3>Excellent Dental Products</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            voluptatum inventore quo laboriosam minus. Fugiat adipisci veniam
+            laboriosam in aliquam tenetur cum hic
+          </p>
+        </div>
+
+        <div class="row justify-content-center p30">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="image">
+                <img src="./images/12000.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h5>Clinical Products</h5>
+                <p>
+                  Clinical products consist of tools like dental chairs, drills,
+                  and sterilization equipment.
+                </p>
+
+                <a href="" class="btn"
+                  >See Product Lineup
+                  <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="box">
+              <div class="image">
+                <img src="./images/6151.jpg" alt="" />
+              </div>
+              <div class="text">
+                <h5>Lab Products</h5>
+                <p>
+                  Lab products include dental implants, crowns, and dentures.
+                </p>
+
+                <a href="" class="btn"
+                  >See Product Lineup
+                  <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured p80">
+      <div class="container">
+        <div class="title sm text-center">
+          <h6>FEATURED PRODUCTS</h6>
+          <h3>Best Selling Products</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            voluptatum inventore quo laboriosam minus. Fugiat adipisci veniam
+            laboriosam in aliquam tenetur cum hic
+          </p>
+        </div>
+
+        <div class="swiper featured_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2021/06/13.jpg"
+                    alt=""
+                  />
+
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>Accureta Dentiq</h5>
+                  </a>
+                  <a href="">
+                    <p>3D Printer</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2021/06/s-l400-MICRO-SAND-BLASTER-367x367.jpg"
+                    alt=""
+                  />
+
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>Micro Sand Blaster</h5>
+                  </a>
+                  <a href="">
+                    <p>Microblaster</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2022/02/foster-plus-17-ltr-3.jpg"
+                    alt=""
+                  />
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>Foster Plus Autoclave 17L Class-B</h5>
+                  </a>
+                  <a href="">
+                    <p>Autoclave</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2021/05/IDS_Vacuclave-43B-final-Web.jpg"
+                    alt=""
+                  />
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>Vacuklav 43B+ Evolution</h5>
+                  </a>
+                  <a href="">
+                    <p>Autoclave</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2022/10/1651675177f50df87b7d34e92b.jpg"
+                    alt=""
+                  />
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>Fomos Sealing Machine</h5>
+                  </a>
+                  <a href="">
+                    <p>Sealing Machine</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2022/02/1-35-367x367.jpg"
+                    alt=""
+                  />
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>i-Scan</h5>
+                  </a>
+                  <a href="">
+                    <p>PSP Scanner</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2021/06/26480-Fornax-T-IMG_8632_neu-Kopie.jpg"
+                    alt=""
+                  />
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>Bego Fornax-T</h5>
+                  </a>
+                  <a href="">
+                    <p>Induction Casting Machine</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2021/06/VITA_DV60I220_frontal_II_S_v001.jpg"
+                    alt=""
+                  />
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>VITA V60 i-LINE</h5>
+                  </a>
+                  <a href="">
+                    <p>Porcelain Furnaces</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2021/05/IDS_Vacuclave-43B-final-Web.jpg"
+                    alt=""
+                  />
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>Vacuklav 43B+ Evolution</h5>
+                  </a>
+                  <a href="">
+                    <p>Autoclave</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product_box">
+                <div class="image">
+                  <img
+                    src="https://www.idsdenmed.in/wp-content/uploads/2022/10/1651675177f50df87b7d34e92b.jpg"
+                    alt=""
+                  />
+                  <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
+                    <i class="fa-solid fa-file-lines"></i>
+                  </a>
+                </div>
+
+                <div class="text">
+                  <a href="">
+                    <h5>Fomos Sealing Machine</h5>
+                  </a>
+                  <a href="">
+                    <p>Sealing Machine</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="home_presence p80">
+      <div class="container">
+        <div class="presence_cta">
+          <div class="cta">
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Our Presence</h3>
+              </div>
+
+              <div class="col-md-4">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  atque vel sit, veniam labore iure deleniti tempora
+                  consectetur?
+                </p>
+              </div>
+
+              <div class="col-md-4">
+                <a href="" class="btn"
+                  >See Networks <i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <section class="featured p80">
-    <div class="container">
-      <div class="title sm text-center">
-        <h6>FEATURED PRODUCTS</h6>
-        <h3>Best Selling Products</h3>
+    <footer>
+      <div class="footer_top">
+        <div class="container">
+          <div class="block">
+            <h6>Clinical Products</h6>
+            <ul>
+              <li><a href="#">Air Polisher</a></li>
+              <li><a href="#">Apex Locator</a></li>
+              <li><a href="#">Articulator</a></li>
+              <li><a href="#">Autoclave</a></li>
+              <li><a href="#">CBCT</a></li>
+              <li><a href="#">Dental Chair unit</a></li>
+              <li><a href="#">Dental Compressors</a></li>
+              <li><a href="#">Dental Handpiece</a></li>
+              <li><a href="#">Digital Shade Guide</a></li>
+              <li><a href="#">Dental Laser</a></li>
+              <li><a href="#">Endoactivator</a></li>
+              <li><a href="#">Endomotor</a></li>
+              <li><a href="#">Handpiece Lubrication</a></li>
+              <li><a href="#">Handpiece Steam Sterilizer</a></li>
+              <li><a href="#">Intra Oral Camera</a></li>
+              <li><a href="#">Intraoral Scanner</a></li>
+              <li><a href="#">Light Cures</a></li>
+              <li><a href="#">Microblaster</a></li>
+              <li><a href="#">Microscope</a></li>
+              <li><a href="#">Obturation System</a></li>
+              <li><a href="#">Physiodispenser</a></li>
+              <li><a href="#">Piezobone Surgery Unit</a></li>
+              <li><a href="#">PSP Scanner</a></li>
+              <li><a href="#">Portable X-ray</a></li>
+              <li><a href="#">RVG</a></li>
+              <li><a href="#">Micromotor</a></li>
+              <li><a href="#">Sealing Machine</a></li>
+              <li><a href="#">Thermal Disinfectant</a></li>
+              <li><a href="#">Ultrasonic Cleaner</a></li>
+              <li><a href="#">Ultrasonic Scalers</a></li>
+              <li><a href="#">Ultrasonic Scalar & Air Polisher</a></li>
+              <li><a href="#">Water Distiller</a></li>
+              <li><a href="#">Clinical Consumables</a></li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <h6>Lab Products</h6>
+            <ul>
+              <li><a href="#">3D Printer</a></li>
+              <li><a href="#">Air Turbine Unit</a></li>
+              <li><a href="#">Circular Saw</a></li>
+              <li><a href="#">Curing Unit</a></li>
+              <li><a href="#">Deflasking Chisel</a></li>
+              <li><a href="#">Dental Arch Trimmer</a></li>
+              <li><a href="#">Metal 3 D Printer</a></li>
+              <li><a href="#">Dental Milling Machine</a></li>
+              <li><a href="#">Dental Surveyor</a></li>
+              <li><a href="#">Electric Polisher</a></li>
+              <li><a href="#">Electric Wax Carver</a></li>
+              <li><a href="#">Electro Polisher</a></li>
+              <li><a href="#">Induction Casting Machine</a></li>
+              <li><a href="#">LAB SCANNER</a></li>
+              <li><a href="#">Laser Welding Unit</a></li>
+              <li><a href="#">Lathe Machine</a></li>
+              <li><a href="#">Micromotor</a></li>
+              <li><a href="#">Model Trimmer</a></li>
+              <li><a href="#">Pindex Machine</a></li>
+              <li><a href="#">Porcelain Furnaces</a></li>
+              <li><a href="#">Pre heating Furnace</a></li>
+              <li><a href="#">Pressure Moulding Machine</a></li>
+              <li><a href="#">Sand Blaster</a></li>
+              <li><a href="#">Sintering Furnace</a></li>
+              <li><a href="#">Spindle Grinder</a></li>
+              <li><a href="#">Suction Unit</a></li>
+              <li><a href="#">Vaccum Forming Machine</a></li>
+              <li><a href="#">Vaccum Mixer</a></li>
+              <li><a href="#">Wax Dipping Pot</a></li>
+              <li><a href="#">Wax Electric</a></li>
+              <li><a href="#">Lab Consumables</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <i class="fa-solid fa-location-dot"></i>
+              <h6>Head Office</h6>
+              <p>Kandevtasthan, Kupondole, Lalitpur</p>
+            </div>
+
+            <div class="col-md-3">
+              <i class="fa-solid fa-phone"></i>
+              <h6>Contact Us</h6>
+              <p>+977 1 1234567</p>
+            </div>
+
+            <div class="col-md-3">
+              <i class="fa-regular fa-envelope"></i>
+              <h6>Mail</h6>
+              <p>info@smartsurgident.com</p>
+            </div>
+            <div class="col-md-3">
+              <div class="logo">
+                <a href="">
+                  <img src="./images/static/logo-reverse.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_btn">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-          voluptatum inventore quo laboriosam minus. Fugiat adipisci veniam
-          laboriosam in aliquam tenetur cum hic
+          © 2024. All rights reserved. Powered by
+          <a href="https://www.keronevadesign.com/" target="_blank">
+            Keroneva Design
+          </a>
         </p>
       </div>
+    </footer>
 
-      <div class="swiper featured_slider">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="product_box">
-              <div class="image">
-                <img src="https://www.idsdenmed.in/wp-content/uploads/2021/06/13.jpg" alt="">
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
 
-                <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
-                  <i class="fa-solid fa-file-lines"></i>
-                </a>
-              </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
 
-              <div class="text">
-                <a href="">
-                  <h5>Accureta Dentiq</h5>
-                </a>
-                <a href="">
-                  <p>3D Printer</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product_box">
-              <div class="image">
-                <img src="https://www.idsdenmed.in/wp-content/uploads/2021/06/s-l400-MICRO-SAND-BLASTER-367x367.jpg"
-                  alt="">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-                <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
-                  <i class="fa-solid fa-file-lines"></i>
-                </a>
-              </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
-              <div class="text">
-                <a href="">
-                  <h5>Micro Sand Blaster</h5>
-                </a>
-                <a href="">
-                  <p>Microblaster</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product_box">
-              <div class="image">
-                <img src="https://www.idsdenmed.in/wp-content/uploads/2022/02/foster-plus-17-ltr-3.jpg" alt="">
-                <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
-                  <i class="fa-solid fa-file-lines"></i>
-                </a>
-              </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-              <div class="text">
-                <a href="">
-                  <h5>Foster Plus Autoclave 17L Class-B</h5>
-                </a>
-                <a href="">
-                  <p>Autoclave</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product_box">
-              <div class="image">
-                <img src="https://www.idsdenmed.in/wp-content/uploads/2021/05/IDS_Vacuclave-43B-final-Web.jpg" alt="">
-                <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
-                  <i class="fa-solid fa-file-lines"></i>
-                </a>
-              </div>
-
-              <div class="text">
-                <a href="">
-                  <h5>Vacuklav 43B+ Evolution</h5>
-                </a>
-                <a href="">
-                  <p>Autoclave</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="product_box">
-              <div class="image">
-                <img src="https://www.idsdenmed.in/wp-content/uploads/2022/10/1651675177f50df87b7d34e92b.jpg" alt="">
-                <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
-                  <i class="fa-solid fa-file-lines"></i>
-                </a>
-              </div>
-
-              <div class="text">
-                <a href="">
-                  <h5>Fomos Sealing Machine
-                  </h5>
-                </a>
-                <a href="">
-                  <p>Sealing Machine</p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="product_box">
-              <div class="image">
-                <img src="https://www.idsdenmed.in/wp-content/uploads/2022/02/1-35-367x367.jpg" alt="">
-                <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
-                  <i class="fa-solid fa-file-lines"></i>
-                </a>
-              </div>
-
-              <div class="text">
-                <a href="">
-                  <h5>i-Scan</h5>
-                </a>
-                <a href="">
-                  <p>PSP Scanner</p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="product_box">
-              <div class="image">
-                <img src="https://www.idsdenmed.in/wp-content/uploads/2021/06/26480-Fornax-T-IMG_8632_neu-Kopie.jpg"
-                  alt="">
-                <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
-                  <i class="fa-solid fa-file-lines"></i>
-                </a>
-              </div>
-
-              <div class="text">
-                <a href="">
-                  <h5>Bego Fornax-T </h5>
-                </a>
-                <a href="">
-                  <p>Induction Casting Machine</p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="product_box">
-              <div class="image">
-                <img src="https://www.idsdenmed.in/wp-content/uploads/2021/06/VITA_DV60I220_frontal_II_S_v001.jpg"
-                  alt="">
-                <a href="" target="_blank" title="DOWNLOAD CATALOUGE">
-                  <i class="fa-solid fa-file-lines"></i>
-                </a>
-              </div>
-
-              <div class="text">
-                <a href="">
-                  <h5>VITA V60 i-LINE </h5>
-                </a>
-                <a href="">
-                  <p>Porcelain Furnaces</p>
-                </a>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </section>
-
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
-  <script src="./js/main.js"></script>
-</body>
-
+    <script src="./js/main.js"></script>
+  </body>
 </html>
