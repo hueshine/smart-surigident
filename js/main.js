@@ -29,3 +29,21 @@ var featuredSwiper = new Swiper(".featured_slider", {
     clickable: true,
   },
 });
+
+var thumbnailSlider = new Swiper(".thumbnail", {
+  slidesPerView: 6,
+  spaceBetween: 10,
+  speed: 1800,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+function changeImage(event) {
+  let mainImage = document.querySelector("#mainImage");
+  let imgElement = event.target;
+  let srcValue = imgElement.getAttribute("src");
+  mainImage.src = srcValue;
+}
